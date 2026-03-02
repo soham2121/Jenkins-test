@@ -7,7 +7,7 @@ def index():
     return "<h1>Soham Desai</h1><br><h2>Aryaman</h2>"
 
 @app.route("/resume")
-def index():
+def resume():
     return render_template("resume.html")
 
 if __name__ == "__main__":
